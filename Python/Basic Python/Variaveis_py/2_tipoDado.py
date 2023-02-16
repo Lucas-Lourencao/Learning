@@ -1,4 +1,4 @@
-# 1. Atividade com variáveis python: 
+# 2. Atividade com variáveis python: 
 # Como sabemos qual o tipo de dado de uma variável?
 # Utilizando a função type(dado)
 
