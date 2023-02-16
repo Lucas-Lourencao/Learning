@@ -1,6 +1,6 @@
 # 1. Atividade com variáveis python:
 
-nome = "Jessika"  
+nome = 'Jessica'  
 idade = 28
 altura = 1.68
 e_matematica = True
