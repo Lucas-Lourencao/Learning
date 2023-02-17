@@ -11,13 +11,27 @@
     <meta name="author" content="Lucas Lourenção">
     <title>Estrutura Básica</title>
 
-    <!--Referenciando o arquivo css da página-->
+    <!--Referenciando o arquivo css da página - css EXTERNO -->
     <link rel="stylesheet" href="../../css/estilo.css">
+
+    <!--
+        Utilizalção do css INTERNO!
+    -->
+    <style>
+        .p{
+            text-align: center;
+            color: rgb(20, 20, 20);
+        }
+
+    </style>
 </head>
 
 <body>
     <div>
-        <h1>Meta Tags</h1>
+        <!--
+            Perceba que na TAG h1 foi inserido um css INLINE
+        -->
+        <h1 style="color:darkorange">Meta Tags</h1>
         <p>Para referencia e explicação de todas as TAGs HTML, <a
                 href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element">
                 clique aqui.</a></p>
