@@ -11,20 +11,39 @@
     <meta name="author" content="Lucas Lourenção">
     <title>Estrutura Básica</title>
 
-    <!--Referenciando o arquivo css da página-->
+    <!--Referenciando o arquivo css da página - css externo-->
     <link rel="stylesheet" href="../../css/estilo.css">
+
+    <!--
+        Utilizalção do css INTERNO!
+    -->
+    <style>
+        body{
+            background:green;
+        }
+        p{
+            text-align: center;
+            color: white;
+            font-size: 30px;
+        }
+    </style>
 </head>
 
 <body>
     <div>
-        <h1>Meta Tags</h1>
+        <!--
+            Perceba que na TAG h1 foi inserido um css INLINE
+        -->
+        <h1 style="color:darkorange">Meta Tags</h1>
+    </div>
+    <div>
         <p>Para referencia e explicação de todas as TAGs HTML, <a
                 href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element">
                 clique aqui.</a></p>
-
     </div>
 
     <!--O JavaScipt deve vir referenciado sempre ao finl do body, para que a página carregue antes dos eventos js-->
+    <!-- JavaScript EXTERNO-->
     <script src="../../JavaScript/Basic_JS/index.js"></script>
 </body>
 
