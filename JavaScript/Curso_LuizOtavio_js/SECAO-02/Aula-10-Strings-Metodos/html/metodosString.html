@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8"><!--meta-tag para utilização do padrão UTF-8 da web. O qual aceita acentuações por exemplo-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--meta-tag que torna a página compatível com navegador internet explorer da microssoft-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--meta-tag que permite o redimensionamento do conteúdo da página conforme o tmanho do dispositivo-->
+    <meta name="description" content="Aqui é informado uma breve sinopse das funcionalidades do site.">
+    <!--meta-tag importante para apresentar um resumo do site-->
+    <meta name="keywords" content="metodos, funções, string, javacript">
+    <!--Aqui deve-se colocar as palavras chaves para auxiliar o rankiamento de busca do seu site-->
+    <meta name="author" content="Lucas Lourenção">
+    <title>Metodos com Strings</title>
+
+    <!--Referenciando o arquivo css da página-->
+    <!--<link rel="stylesheet" href="../css/estilo.css">-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">JavaScript</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" target="blank"
+                            href="https://www.w3schools.com/js/js_string_methods.asp">String Methods</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="blank"
+                            href="https://www.w3schools.com/js/js_string_search.asp">String Search</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <form>
+        <div class="form-group container-fluid">
+            <label for="exampleInputEmail1">1) Length</label>
+            <input style="margin-top:5px;" type="text" class="form-control" id="metodoLength"
+                placeholder="Digite uma palavra">
+            <small style="text-align: justify;" id="emailHelp" class="form-text text-muted">Método utilizado para
+                verificar quantos caracteres
+                existem em uma string.</small>
+        </div>
+        <button onclick="tamanhoString()" style="margin: 10px 10px;" type="submit"
+            class="btn btn-primary">Verificar</button>
+    </form>
+    <div id="divOculta">
+        <p id="contaCaractere"></p>
+    </div>
+
+    <script src="../js/metodosString.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
