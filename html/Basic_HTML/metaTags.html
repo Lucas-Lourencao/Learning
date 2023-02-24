@@ -1,0 +1,50 @@
+<head>
+    <meta charset="UTF-8"><!--meta-tag para utilização do padrão UTF-8 da web. O qual aceita acentuações por exemplo-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--meta-tag que torna a página compatível com navegador internet explorer da microssoft-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--meta-tag que permite o redimensionamento do conteúdo da página conforme o tmanho do dispositivo-->
+    <meta name="description" content="Aqui é informado uma breve sinopse das funcionalidades do site.">
+    <!--meta-tag importante para apresentar um resumo do site-->
+    <meta name="keywords" content="metodos, funções, string, javacript">
+    <!--Aqui deve-se colocar as palavras chaves para auxiliar o rankiamento de busca do seu site-->
+    <meta name="author" content="Lucas Lourenção">
+    <title>Estrutura Básica</title>
+
+    <!--Referenciando o arquivo css da página - css externo-->
+    <link rel="stylesheet" href="../../css/estilo.css">
+
+    <!--
+        Utilizalção do css INTERNO!
+    -->
+    <style>
+        body{
+            background:green;
+        }
+        p{
+            text-align: center;
+            color: white;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <!--
+            Perceba que na TAG h1 foi inserido um css INLINE
+        -->
+        <h1 style="color:darkorange">Meta Tags</h1>
+    </div>
+    <div>
+        <p>Para referencia e explicação de todas as TAGs HTML, <a
+                href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element">
+                clique aqui.</a></p>
+    </div>
+
+    <!--O JavaScipt deve vir referenciado sempre ao finl do body, para que a página carregue antes dos eventos js-->
+    <!-- JavaScript EXTERNO-->
+    <script src="../../JavaScript/Basic_JS/index.js"></script>
+</body>
+
+</html>
