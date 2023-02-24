@@ -1,1 +1,0 @@
-console.log('Esta é uma mensagem vinda de um arquivo externo ao arquivo HTML!')
