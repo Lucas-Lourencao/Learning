@@ -2,7 +2,7 @@
 const pessoa = {
     //ATRIBUTOS
     nome:'Lucas',
-    sobrenome:'Lourenção',
+    sobrenome:'Lourenção', 
     idade:35,
 
     // 2) Construindo o objeto com métodos:
